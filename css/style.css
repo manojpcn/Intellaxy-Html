@@ -542,3 +542,47 @@ h6,
 .logo{
     padding-top: 20px;
 }
+
+p{
+    font-size: 18px;
+}
+
+.footer p{
+    font-size: 16px;
+}
+
+.card-flip {
+  perspective: 1000px;
+}
+.service-item {
+  width: 100%;
+  height: 300px;
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
+  position: relative;
+}
+.card-flip:hover .service-item {
+  transform: rotateY(180deg);
+}
+.service-front,
+.service-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.service-front {
+  background: #fff;
+  border: 1px solid #ddd;
+}
+.service-back {
+  background: #f8f9fa;
+  transform: rotateY(180deg);
+  border: 1px solid #ddd;
+}
