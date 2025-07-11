@@ -579,11 +579,12 @@ p{
   margin: 0 -30px;
 }
 .service-front {
-  background: #1363c6;
+  background: #fff;
   /* border: 1px solid #ddd; */
 }
 .service-back {
-  background: #f8f9fa;
+  background: #1363c6;
   transform: rotateY(180deg);
+  color: #fff;
   /* border: 1px solid #ddd; */
 }
