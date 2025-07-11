@@ -576,13 +576,14 @@ p{
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  margin: 0 -30px;
 }
 .service-front {
-  background: #fff;
-  border: 1px solid #ddd;
+  background: #1363c6;
+  /* border: 1px solid #ddd; */
 }
 .service-back {
   background: #f8f9fa;
   transform: rotateY(180deg);
-  border: 1px solid #ddd;
+  /* border: 1px solid #ddd; */
 }
