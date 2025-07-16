@@ -24,7 +24,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $phoneno = $_POST['phoneno'];
     $message = nl2br(htmlspecialchars($_POST['message']));
 
-    $to = "support@intellaxy.com";
+    $to = "spykids.manoj@gmail.com";
+    // $to = "support@intellaxy.com";
     $subject = "New Contact Message";
     $body = "Name: $name\nEmail: $email\n\nPhone Number: $phoneno\n\nMessage:\n$message";
 
