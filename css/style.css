@@ -588,3 +588,6 @@ p{
   color: #fff;
   /* border: 1px solid #ddd; */
 }
+.service-back ul li{
+    text-align: left !important;
+}
